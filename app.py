@@ -26,7 +26,7 @@ def liist():
     cur.execute("select * from users")
     
     d = cur.fetchall();
-    print(jsonify(d))
+    #print(jsonify(d))
     return jsonify(d)
 
 if __name__ == '__main__':
